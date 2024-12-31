@@ -55,7 +55,7 @@ const showResult = () => {
   });
 
   post.addEventListener('click', () => {
-    window.location.href = `https://twitter.com/intent/tweet?text=おみくじの結果は「${omikuzi[num].result}」でした。%0A&hashtags=るり先生のおみくじアプリ%0A,ZeroPlus`;
+    window.location.href = `https://twitter.com/intent/tweet?text=おみくじの結果は「${omikuzi[num].result}」でした。%0A&url=https://omikuzi-app.vercel.app/%0A&hashtags=るり先生のおみくじアプリ%0A,ZeroPlus`;
   });
 };
 
