@@ -1,0 +1,76 @@
+body {
+  font-family: 'Sawarabi Mincho', serif;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #1a4c01bc;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 20px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1a4c01bc;
+  background: #e1d9b5;
+  width: 220px;
+  height: 40px;
+  text-align: center;
+}
+.item-container {
+  color: #e1d9b5;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.rabbit {
+  background: none;
+  border: none;
+}
+
+.img-container {
+  padding-bottom: 50px;
+}
+
+.rabbit-img {
+  display: flex;
+  justify-content: center;
+}
+.rabbit-img img {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+
+#btnClose {
+  width: 150px;
+  border: none;
+  background: #fffef9;
+  font-weight: bold;
+  color: #1a4c01;
+  border-radius: 3px;
+  margin: 20px auto 0 auto;
+}
+
+#post {
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #1a4c01;
+}
+
+.postBtn {
+  text-align: center;
+}
